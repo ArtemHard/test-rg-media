@@ -1,0 +1,12 @@
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 1.5rem;
+}
+
+.title {
+  flex-grow: 1;
+  text-align: center;
+}
