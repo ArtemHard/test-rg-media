@@ -3,7 +3,7 @@ import styles from "./postPage.module.css";
 import React from "react";
 import { useRouter } from "next/router";
 import { usePosts } from "assets/hooks";
-import { Post } from "@/components/ui";
+import { Post } from "components/ui";
 const PostPage = () => {
   const router = useRouter();
   console.log(router.query.id);
