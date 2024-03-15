@@ -6,7 +6,6 @@ import { usePosts } from "assets/hooks";
 import { Post } from "components/ui";
 const PostPage = () => {
   const router = useRouter();
-  console.log(router.query.id);
 
   const { post } = usePosts((router.query.id as string) ?? "");
 
